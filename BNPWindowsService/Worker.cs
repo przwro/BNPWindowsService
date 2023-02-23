@@ -17,5 +17,17 @@ namespace BNPWindowsService
                 await Task.Delay(1000, stoppingToken);
             }
         }
+
+        public override Task StartAsync(CancellationToken cancellationToken)
+        {
+            _logger.LogInformation("BackgroundService starting up...");
+            return base.StartAsync(cancellationToken);
+        }
+
+        public override Task StopAsync(CancellationToken cancellationToken)
+        {
+            _logger.LogInformation("BackgroundService stopping!");
+            return base.StopAsync(cancellationToken);
+        }
     }
 }

@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.33414.496
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BNPWindowsService", "BNPWindowsService\BNPWindowsService.csproj", "{CF0450F4-AC1E-436C-B900-A51492C8259F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CF0450F4-AC1E-436C-B900-A51492C8259F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CF0450F4-AC1E-436C-B900-A51492C8259F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CF0450F4-AC1E-436C-B900-A51492C8259F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CF0450F4-AC1E-436C-B900-A51492C8259F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7B198365-1312-4CD3-B1E4-7FE2C877DCB7}
+	EndGlobalSection
+EndGlobal
